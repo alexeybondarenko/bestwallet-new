@@ -10,21 +10,19 @@ output, ruby, section, summary,time, mark, audio, video
     padding: 0
     border: 0
     vertical-align: baseline
+    box-sizing: border-box
 body, html
     height: 100%    
 img,fieldset, a img
     border: none
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea
-    -webkit-appearance: none
 input[type="submit"],
 button
     cursor: pointer
     &::-moz-focus-inner
         padding: 0
         border: 0
+textarea, input
+    box-sizing: border-box
 textarea 
     overflow: auto
 input, button 
@@ -43,13 +41,3 @@ table
     border-spacing: 0
     border-collapse: collapse
     width: 100%
-
-// box-sizing model reset
-
-// html
-//     +box
-// *
-//     +box
-//     &:before,
-//     &:after
-//         +box
