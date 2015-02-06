@@ -1,10 +1,10 @@
 .form
-	width: 436px
+	width: 436px*$math
 	margin: 0 auto
 	&.form_mb35
 		margin: 0 auto 35px
 	.form__links
-		padding-top: 20px
+		padding-top: 20px*$math
 		+clr
 		.link
 			float: right
@@ -15,28 +15,28 @@
 		a
 			position: relative
 			display: block
-			padding-bottom: 15px
+			padding-bottom: 15px*$math
 			border-bottom: 1px solid $white
 			color: $orange-light
 			.icon-arrow-right
 				position: relative
 				top: 1px
 				float: right
-				font-size: 23px
+				font-size: 23px*$math
 				color: $white 
 	.form__btns
 		margin: 45px 0 0
 		+clr
 		.btn
 			float: right
-			width: 200px
+			width: 200px*$math
 			margin: 0
 			&:first-child
 				float: left
 	.form__btns_rows
 		.btn
 			float: none
-			width: 320px
+			width: 320px*$math
 			&:first-child
 				float: none
 				margin-bottom: 20px
@@ -45,8 +45,8 @@
 
 .btn
 	width: 100%
-	height: 75px
-	padding: 0 20px
+	height: 75px*$math
+	padding: 0 20px*$math
 	border: 2px solid $white
 	font-size: 27px
 	&.btn_red
@@ -64,12 +64,12 @@
 		background: $orange
 	&.btn_w410
 		display: block
-		width: 410px
+		width: 410px*$math
 		margin: 0 auto
 	&.btn_mb35
-		margin: 0 auto 35px
+		margin: 0 auto 35px*$math
 	&.btn_mb45
-		margin: 0 auto 45px
+		margin: 0 auto 45px*$math
 	&.btn_no-border
 		border: none
 	&.btn_arrow
@@ -77,9 +77,9 @@
 		overflow: auto
 		.icon
 			position: absolute
-			top: 33px
+			top: 23px
 			right: 38px
-			font-size: 14px
+			font-size: 14px*$math
 
 .fieldset
 	+clr
@@ -91,16 +91,16 @@
 			background: $red-light 
 			box-shadow: 0 0 0 2px $red inset
 	&.field_w440
-		width: 440px
+		width: 310px
 	&.field_w85,
 	&.field_w120	
 		.input
-			padding: 0 25px
+			padding: 0 10px
 			text-align: center
 	&.field_w85
-		width: 85px
+		width: 55px
 	&.field_w120
-		width: 120px
+		width: 85px
 	&.field_password, &.field_user, &.field_rub
 		.input
 			padding: 0 70px 0 30px
@@ -108,21 +108,21 @@
 			position: absolute
 	&.field_password
 		.icon-eye
-			top: 28px
+			top: 22px
 			right: 22px
 			color: $gray
-			font-size: 18px 
+			font-size: 18px*$math
 	&.field_user
 		.icon-user
 			top: 22px
 			right: 24px
-			font-size: 32px
+			font-size: 32px*$math
 			color: $red  
 	&.field_rub
 		.icon-rub
-			top: 26px
+			top: 20px
 			right: 31px
-			font-size: 22px
+			font-size: 22px*$math
 			color: $red
 		&.field_border-gray
 			.icon-rub
@@ -145,7 +145,7 @@
 
 .input
 	width: 100%
-	height: 75px
+	height: 75px*$math
 	background: $white 
 	padding: 0 30px
 
