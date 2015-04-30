@@ -1,0 +1,17 @@
+{
+  "name": "bestwallet-new",
+  "version": "1.0.0",
+  "homepage": "https://github.com/coderiver/bestwallet-new",
+  "authors": [
+    "alexeybondarenko <alexeybondarenko@me.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
